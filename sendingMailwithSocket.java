@@ -10,7 +10,7 @@ public class sendingMailwithSocket {
     public static void main(String[] args) throws Exception {
         int delay = 1000;
         String user = "s1912276130@ru.ac.bd";
-        String pass = "1213539497";
+        String pass = "*****";
 
         String userName = new String(Base64.getEncoder().encode(user.getBytes()));
         String passWord = new String(Base64.getEncoder().encode(pass.getBytes()));
